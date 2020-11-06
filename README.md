@@ -17,14 +17,16 @@ omega = 2*pi/365;
 ```
 t = t_start:t_end;
 ```
+온도를 측정한 시간 t의 범위를  t_start에서 t_end까지로 정해줍니다.
+```
 t_peak = 205;
 ```
 ```
 T = T_mean+(T_peak-T_mean)*cos(omega*(t-t_peak));
 ```
+연간 기온을 approximation 할 수 있는 식을 작성해줍니다.
 ```
 T_avg = mean(T);
 ```
-```
-end
-```
+mean()을 이용하여 T의 평균을 구해줍니다.
+
