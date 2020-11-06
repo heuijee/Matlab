@@ -1,7 +1,7 @@
 # Matlab avgTemp
 Matlab을 사용하여 한 지역의 평균 기온을 구하는 코드를 작성해보았습니다.
 
-function T_avg = avgTemp(T_mean, T_peak, t_start, t_end)
+  function T_avg = avgTemp(T_mean, T_peak, t_start, t_end)
 
 T_mean: 평균 연간 기온
 
